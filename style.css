@@ -102,17 +102,16 @@ a:hover {
 .element5 img {
 display: flex;
     border: 1px solid black;
-    height: 450px;
+    /*height: 450px;*/
     margin: 15px;
-    overflow: hidden;
 }
 
 .element6 img {
 display: flex;
     border: 1px solid black;
-    height: 450px;
+    /*height: 450px;*/
     margin: 15px;
-    overflow: hidden;
+    
 }
 .clear {
     display: flex;
