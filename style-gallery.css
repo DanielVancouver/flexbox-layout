@@ -11,12 +11,12 @@
     height: auto;
     border: 3px solid black;
     align-items: center;
-
 }
 
-.element {
-    padding: 15px;
-    margin-left: 15px;
+.image {
+    display:flex;
+    padding: 10px;
+    height: 80px;
 }
 
 nav {
@@ -54,7 +54,8 @@ a:hover {
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: rgb(169, 169, 221);
     border: 3px solid black;
     width: 90%;
@@ -86,23 +87,20 @@ a:hover {
     display: flex;
     align-self: baseline;
     margin-top: 15px;
-    margin-left: 15px;
 }
 
 .imagebox2 {
     display: flex;
     align-self: baseline;
-    margin-bottom: 15px;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-bottom: 15px;
  }
 
-.imagebox1 img,
-.imagebox2 img {
+img {
     display: flex;   
     border: 1px solid black;
-    margin-right: 15px;
-
+    margin-left: 15px;
+    max-width: 100%;
 }
 
 .box4 {

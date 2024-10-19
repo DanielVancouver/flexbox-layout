@@ -15,8 +15,9 @@
 }
 
 .element {
-    padding: 15px;
-    margin-left: 15px;
+    display:flex;
+    padding: 10px;
+    height: 80px;
 }
 
 nav {
